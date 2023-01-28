@@ -9,8 +9,8 @@ import org.testng.annotations.Test;
 
 public class DeleteLead {
 
-	@Test
-	public  void RunDeleteLead() throws InterruptedException {
+	
+	public static void main(String[] args) throws InterruptedException {
 		ChromeDriver driver= new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));

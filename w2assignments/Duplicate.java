@@ -11,8 +11,8 @@ import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 
 public class Duplicate {
 
-	@Test
-	public  void RunDuplicateLead() throws InterruptedException {
+	
+	public static void main(String[] args) throws InterruptedException {
 		
 		ChromeDriver driver= new ChromeDriver();
 		driver.manage().window().maximize();
